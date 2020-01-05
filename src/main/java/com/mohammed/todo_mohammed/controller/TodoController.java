@@ -35,7 +35,6 @@ public class TodoController {
     @RequestMapping(value = "/todo" , method = RequestMethod.POST)
     public  Todo create(@RequestBody Todo todo) {
             return todoService.post(todo);
-
     }
 
 }
